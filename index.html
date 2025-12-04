@@ -46,12 +46,45 @@
 <div>
 <input type="checkbox" id="fruitBanana" name="fruit" value="banana" checked>
 <label for="fruitBanana">Banana</label>
-</div>
-      <button class="animation a6">LOGIN</button>
-</form>
-    </div>
   </div>
   <div class="right"></div>
+  <head>
+    <meta charset="UTF-8">
+    <title>Button Click Example</title>
+    <style>
+        /* Simple styling for the button */
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Button element -->
+    <button id="myButton">LOGIN
+      <h1>apple-healthy
+      </h1>
+      <h1>pear- Good for imune system</h1>
+      <h2>Shinefule person based on Blue</h2>
+    </button>
+
+    <!-- Where we'll display the result -->
+    <p id="output"></p>
+
+    <script>
+        // Get references to the button and output elements
+        const button = document.getElementById('myButton');
+        const output = document.getElementById('output');
+
+        // Add a click event listener to the button
+        button.addEventListener('click', function() {
+            // Action to perform when button is clicked
+            output.textContent = "Log in Successful";
+            output.style.color = "green";
+        });
+    </script>
 </div>
 
 </body>

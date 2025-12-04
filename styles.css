@@ -145,3 +145,19 @@ body {
     width: 440px;
   }
 }
+/* Basic button styling */
+#myButton {
+    background-color: #572477; /* purple */
+    color: rgb(175, 16, 16);
+    padding: 2px 14px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+#myButton:hover {
+    background-color: #041b05;
+}
